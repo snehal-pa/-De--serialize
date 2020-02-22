@@ -20,6 +20,7 @@ public class Main {
         ArrayList<Serializable> objectsFromFile = (ArrayList<Serializable>) Serializer.readObject();
 
         objectsFromFile.forEach(System.out::println);
+        System.out.println();
 
     }
 }
