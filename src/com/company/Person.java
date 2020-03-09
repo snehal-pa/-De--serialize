@@ -22,6 +22,6 @@ public class Person implements Serializable {
 
     @Override
     public String toString() {
-        return String.format("Person %s (%s) has %s", this.name,this.age,this.pet.toString() );
+        return String.format("Person %s (%s) has %s", this.name,this.age,this.pet );
     }
 }
